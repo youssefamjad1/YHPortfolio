@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import "~@fortawesome/fontawesome-free/css/all.min.css"; /* Import Font Awesome once */
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 1.5vh;
+    width: 100%;
+    height: 100%;
+    color: #333; /* Replace with your dark color variable if needed */
+    background-color: #fff; /* Replace with your white color variable if needed */
+    box-sizing: border-box;
+}
+
+li {
+    color: #333; /* Replace with your dark color variable if needed */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}

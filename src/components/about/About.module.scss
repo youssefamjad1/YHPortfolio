@@ -1,0 +1,53 @@
+@import "../../variables.modules";
+
+.pink {
+  color: $pink;
+}
+
+.green {
+  color: $green;
+}
+
+.skills {
+  columns: 1;
+  @media only screen and (min-width: 940px) {
+    columns: 2;
+  }
+
+  li {
+    margin: 0;
+    line-height: 1.75;
+  }
+}
+
+.certifications {
+  list-style-type: none;
+  padding: 0;
+  li {
+    margin-bottom: 2rem;
+    text-align: center;
+
+    img {
+      width: 100%;
+      max-width: 600px; // Adjusted to a larger size
+      height: auto;
+      margin-bottom: 1rem; // Increased margin for better spacing
+      transition: transform 0.3s ease-in-out; // Smooth transition for scaling
+
+      &:hover {
+        transform: scale(1.2); // Scale up the image on hover
+      }
+    }
+
+    a {
+      display: block;
+      color: $pink; // Use an existing variable, replace this with any existing color variable
+      text-decoration: none;
+      font-size: 1.2rem; // Slightly larger font size for better visibility
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
