@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/YHPortfolio/static/css/main.427ad24c.css",
+    "main.js": "/YHPortfolio/static/js/main.e99db236.js",
+    "static/media/mock2.png": "/YHPortfolio/static/media/mock2.371439dde569ce07403e.png",
+    "static/media/mock1.png": "/YHPortfolio/static/media/mock1.255658139aad8707b53c.png",
+    "static/media/boxicons.svg": "/YHPortfolio/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/mock3.png": "/YHPortfolio/static/media/mock3.15f99150d19575b9aacd.png",
+    "static/media/drumkitmockup.png": "/YHPortfolio/static/media/drumkitmockup.12ffe492962fea2590d2.png",
+    "static/media/self.png": "/YHPortfolio/static/media/self.ca8259f3f6cf21021c25.png",
+    "static/media/fa-solid-900.ttf": "/YHPortfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/boxicons.eot": "/YHPortfolio/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/YHPortfolio/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/YHPortfolio/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/fa-brands-400.ttf": "/YHPortfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/javascriptfcccertificate.png": "/YHPortfolio/static/media/javascriptfcccertificate.28d7463c7d487bbbaa48.png",
+    "static/media/fccresponsivecertificateyh.png": "/YHPortfolio/static/media/fccresponsivecertificateyh.d890a9dd77a6a78087e6.png",
+    "static/media/fa-solid-900.woff2": "/YHPortfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/YHPortfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/boxicons.woff2": "/YHPortfolio/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "static/media/fa-regular-400.ttf": "/YHPortfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/YHPortfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/YHPortfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/YHPortfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/YHPortfolio/index.html",
+    "main.427ad24c.css.map": "/YHPortfolio/static/css/main.427ad24c.css.map",
+    "main.e99db236.js.map": "/YHPortfolio/static/js/main.e99db236.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.427ad24c.css",
+    "static/js/main.e99db236.js"
+  ]
+}
