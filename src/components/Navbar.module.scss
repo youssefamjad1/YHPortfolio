@@ -3,7 +3,7 @@
 nav {
   width: 100%;
   display: flex;
-  justify-content: space-between; // Use space-between to push the burger menu to the left
+  justify-content: space-between;
   align-items: center;
   padding: 1rem;
   transition: all 400ms;
@@ -21,21 +21,21 @@ nav {
   .burgerMenu {
     display: none;
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-start;  // Align items to the left
+      align-items: flex-start;
       cursor: pointer;
       margin-left: 1rem;
-    }
 
-    .burgerIcon {
-      width: 30px;
-      height: 3px;
-      background-color: currentColor;
-      margin: 6px 0;
-      transition: 0.4s;
+      .burgerIcon {
+        width: 30px;
+        height: 3px;
+        background-color: currentColor;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
     }
   }
 
@@ -44,20 +44,23 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    flex: 1; /* Allow `ul` to take available space */
+    max-width: 100%; /* Ensure `ul` does not exceed the container width */
 
-    @media (min-width: 768px) {
+    @media (min-width: 901px) {
       gap: 8rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       display: none;
       flex-direction: column;
       position: absolute;
-      top: 60px;  // Adjust based on your burger menu height
-      left: 1rem;  // Align the dropdown to the left
-      background-color: inherit;
+      top: 60px; /* Position below the burger menu */
+      left: 0;
+      right: 0;
+      background-color: inherit; /* Inherit background color from nav */
       z-index: 1000;
-      width: auto; // Adjust width as needed
+      width: 100%; /* Ensure full width on small screens */
       padding: 0;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease-in-out;
@@ -65,7 +68,8 @@ nav {
   }
 
   .showMenu {
-    display: flex !important;
+    display: flex !important; /* Ensure the menu shows when toggled */
+    background-color: inherit; /* Ensure the menu inherits the background color */
   }
 
   li {
@@ -105,9 +109,8 @@ nav {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       margin-left: 0;
     }
   }
