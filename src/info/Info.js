@@ -54,7 +54,7 @@ export const info = {
         },
         {
             title: "Personal Portfolio",
-            live: "https://paytonpierce.dev",
+            live: "https://youssefamjad1.github.io/YHPortfolio/",
             source: "https://github.com/paytonjewell",
             image: mock3
         },
