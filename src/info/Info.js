@@ -3,6 +3,7 @@ import mock1 from "../img/mock1.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
 import mock4 from "../img/drumkitmockup.png";
+import alxMock from "../img/alxmock.jpg"; // Make sure to add this image to your img folder
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -63,6 +64,22 @@ export const info = {
             live: "https://66a6372c1bcea700086fa9cb--mydrumkityh.netlify.app/",
             source: "https://github.com/youssefamjad1/DrumKit",
             image: mock4
+        },
+        {
+            title: "Professional Foundations – ALX Program",
+            image: alxMock,
+            buttons: [
+                {
+                    label: "Slide Deck",
+                    icon: "fa fa-file-powerpoint",
+                    link: "https://docs.google.com/presentation/d/17bUGEVfULbzF4voK40ZpU0Bcob6fDwui9PUaRvlBPuw/edit?usp=drivesdk", 
+                },
+                {
+                    label: "Watch Video",
+                    icon: "fa fa-youtube-play",
+                    link: "https://youtu.be/SFxf9lrAChI",
+                }
+            ]
         }
     ]
 };
