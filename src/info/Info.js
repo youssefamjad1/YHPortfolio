@@ -44,7 +44,7 @@ export const info = {
         {
             title: "Ecommerce MWK SHOP",
             live: "https://66a80046043cec0008af93b0--a2y.netlify.app/",
-            source: "https://github.com/paytonjewell",
+            source: "https://github.com/youssefamjad1/A2Y-ECOM",
             image: mock1
         },
         {
@@ -56,7 +56,7 @@ export const info = {
         {
             title: "Personal Portfolio",
             live: "https://youssefamjad1.github.io/YHPortfolio/",
-            source: "https://github.com/paytonjewell",
+            source: "https://github.com/youssefamjad1/YHPortfolio",
             image: mock3
         },
         {
