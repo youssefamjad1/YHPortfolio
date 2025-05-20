@@ -5,6 +5,8 @@ import { Box } from "@mui/material";
 import { info } from "../../info/Info";
 import fccresponsive from "../../img/fccresponsivecertificateyh.png";
 import fccjs from "../../img/javascriptfcccertificate.png";
+import udemyFullStack from "../../img/udemyfullstack.jpg";
+
 
 export default function About({ innerRef }) {
     const firstName = info.firstName.toLowerCase();
@@ -37,22 +39,34 @@ export default function About({ innerRef }) {
         </>;
     }
 
-    function certificationsText() {
-        return <>
-            <p><span style={{ color: info.baseColor }}>{firstName}{info.lastName.toLowerCase()} $</span> cd certifications</p>
-            <p><span style={{ color: info.baseColor }}>certifications <span className={Style.green}>(main)</span> $</span> ls</p>
-            <ul className={Style.certifications}>
-                <li>
-                    <img src={fccresponsive} alt="Responsive Web Design Certificate" className={Style.certificateImage} />
-                    <a href="https://www.freecodecamp.org/certification/fcc8de9c8e8-3cda-454f-aa2f-663208ed0bb3/responsive-web-design" target="_blank" rel="noopener noreferrer">Responsive Web Design Certification</a>
-                </li>
-                <li>
-                    <img src={fccjs} alt="JavaScript and Data Structures Certificate" className={Style.certificateImage} />
-                    <a href="https://www.freecodecamp.org/certification/fcc8de9c8e8-3cda-454f-aa2f-663208ed0bb3/javascript-algorithms-and-data-structures" target="_blank" rel="noopener noreferrer">JavaScript and Data Structures Certification</a>
-                </li>
-            </ul>
-        </>;
-    }
+function certificationsText() {
+    return <>
+        <p><span style={{ color: info.baseColor }}>{firstName}{info.lastName.toLowerCase()} $</span> cd certifications</p>
+        <p><span style={{ color: info.baseColor }}>certifications <span className={Style.green}>(main)</span> $</span> ls</p>
+        <ul className={Style.certifications}>
+            <li>
+                <img src={udemyFullStack} alt="Udemy Full Stack Certificate" className={Style.certificateImage} />
+                <a href="https://www.udemy.com/certificate/your-certificate-link" target="_blank" rel="noopener noreferrer">
+                    Full Stack Web Developer Certificate – Udemy
+                </a>
+            </li>
+            <li>
+                <img src={fccresponsive} alt="Responsive Web Design Certificate" className={Style.certificateImage} />
+                <a href="https://www.freecodecamp.org/certification/fcc8de9c8e8-3cda-454f-aa2f-663208ed0bb3/responsive-web-design" target="_blank" rel="noopener noreferrer">
+                    Responsive Web Design Certification
+                </a>
+            </li>
+            <li>
+                <img src={fccjs} alt="JavaScript and Data Structures Certificate" className={Style.certificateImage} />
+                <a href="https://www.freecodecamp.org/certification/fcc8de9c8e8-3cda-454f-aa2f-663208ed0bb3/javascript-algorithms-and-data-structures" target="_blank" rel="noopener noreferrer">
+                    JavaScript and Data Structures Certification
+                </a>
+            </li>
+        </ul>
+    </>;
+}
+
+
 
     function miscText() {
         return <>

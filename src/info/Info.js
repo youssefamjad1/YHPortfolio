@@ -3,6 +3,7 @@ import mock1 from "../img/mock1.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
 import mock4 from "../img/drumkitmockup.png";
+import mock6 from "../img/mock6.png"
 import alxMock from "../img/alxmock.jpg"; // Make sure to add this image to your img folder
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
@@ -26,7 +27,7 @@ export const info = {
     socials: [
         { link: 'https://github.com/youssefamjad1', icon: 'bxl-github', label: 'GitHub' },
         { link: 'https://www.linkedin.com/in/youssef-himmi-34118989/', icon: 'bxl-linkedin', label: 'LinkedIn' },
-        { link: 'https://twitter.com/myprofile', icon: 'bxl-twitter', label: 'Twitter' },
+        { link: 'https://x.com/YoussefHIM54541', icon: 'bxl-twitter', label: 'Twitter' },
         { link: 'https://facebook.com/myprofile', icon: 'bxl-facebook', label: 'Facebook' },
         { link: 'https://instagram.com/myprofile', icon: 'bxl-instagram', label: 'Instagram' }
     ],
@@ -41,6 +42,12 @@ export const info = {
         { label: 'swimming', emoji: '🏊' }
     ],
     portfolio: [
+        {
+            title: "Gas Find",
+            live: "https://bejewelled-bavarois-afcaea.netlify.app/",
+            source: "https://github.com/youssefamjad1/GasFind",
+            image: mock6
+        },
         {
             title: "Ecommerce MWK SHOP",
             live: "https://66a80046043cec0008af93b0--a2y.netlify.app/",
